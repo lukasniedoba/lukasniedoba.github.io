@@ -135,12 +135,14 @@
         .contact-item {
             margin-bottom: 8px;
             color: #555;
+            display: flex;
+            align-items: flex-start;
         }
 
         .contact-item strong {
             color: #2c3e50;
-            display: inline-block;
             width: 80px;
+            flex-shrink: 0;
         }
 
         .email {
@@ -239,7 +241,13 @@
                             <h3>Osobní údaje</h3>
                             <div class="contact-item"><strong>Jméno:</strong> Lukáš Niedoba</div>
                             <div class="contact-item"><strong>Email:</strong> <a href="mailto:niedoba.lukas@gmail.com" class="email">niedoba.lukas@gmail.com</a></div>
-                            <div class="contact-item"><strong>Adresa:</strong> Pod novým lesem 408/9<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Praha 6 - Veleslavín, 16200</div>
+                            <div class="contact-item">
+                                <strong>Adresa:</strong>
+                                <div>
+                                    Pod novým lesem 408/9<br>
+                                    Praha 6 - Veleslavín, 16200
+                                </div>
+                            </div>
                         </div>
                         <div class="contact-section">
                             <h3>Fakturační údaje</h3>
